@@ -13,13 +13,13 @@ The original code is built for tensorflow1 and python2. I modified it so that it
 ## Dataset
 The Flickr-25K dataset can be downloaded from https://github.com/jiangqy/DCMH-CVPR2017/tree/master/DCMH_tensorflow/DCMH_tensorflow.
 
-Once get the Flickr-25K data files, unzip them and put them in the './data/' directory. Then run 'data_process.m' to get the input data file 'FLICKR-25K.mat'. 
+Once get the Flickr-25K data files, unzip them and put them in the _'./data/'_ directory. Then run _'./data/data_process.m'_ to get the input data file _'FLICKR-25K.mat'_. 
 
 ## Pre-trained model
-Download the pre-trained imagenet model 'imagenet-vgg-f.mat' from https://www.vlfeat.org/matconvnet/pretrained/ and put it in the './data/' directory.
+Download the pre-trained imagenet model _'imagenet-vgg-f.mat'_ from https://www.vlfeat.org/matconvnet/pretrained/ and put it in the _'./data/'_ directory.
 
 ## Train
-Run 'Main.py'.
+Run _'Main.py'_.
 
 I get the best result with one epoch:
 
