@@ -12,6 +12,7 @@ The original code is built for tensorflow1 and python2. I modified it so that it
 
 ## Dataset
 Original MIRFLICKR 25000 dataset：https://press.liacs.nl/mirflickr/mirdownload.html
+
 The processed Flickr-25K dataset can be downloaded from https://github.com/jiangqy/DCMH-CVPR2017/tree/master/DCMH_tensorflow/DCMH_tensorflow.
 
 Once get the Flickr-25K data files, unzip them and put them in the _'./data/'_ directory. Then run _'./data/data_process.m'_ to get the input data file _'FLICKR-25K.mat'_. 
